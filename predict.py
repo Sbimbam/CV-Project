@@ -1,6 +1,9 @@
 from ultralytics import YOLO
 
-# Reference: https://docs.ultralytics.com/modes/predict/
+"""
+    REFERENCE: 
+    - https://docs.ultralytics.com/modes/predict/
+"""
 
 source_path = r"H:\Il mio Drive\Data\Video test\demo.mp4"
 model_path = r"H:\Il mio Drive\runs\detect\train3\weights\best.pt"

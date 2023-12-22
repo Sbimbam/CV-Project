@@ -5,17 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e3be683-658c-47a4-9ff2-998b6cdd7606" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/validation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Report/src/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/src/main.bib" beforeDir="false" afterPath="$PROJECT_DIR$/Report/src/main.bib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/src/main.tex" beforeDir="false" afterPath="$PROJECT_DIR$/Report/src/main.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/src/project.bib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report/src/project.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/predict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/train.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -38,7 +43,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/OneDrive - Università di Cagliari/3 ERASMUS/CORSI/CV/CV_PROJECT/CV-Project-GIT/Report",
+    "last_opened_file_path": "D:/OneDrive - Università di Cagliari/3 ERASMUS/CORSI/CV/CV_PROJECT/CV-Project-GIT",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -53,7 +58,7 @@
       <recent name="D:\OneDrive - Università di Cagliari\3 ERASMUS\CORSI\CV\CV_PROJECT\CV-Project-GIT\Report" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="BibTeX.main bibliography">
     <configuration default="true" type="BIBTEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
       <texify-bibtex>
         <compiler />
@@ -72,7 +77,7 @@
         <compiler-arguments />
         <envs />
         <main-file>$PROJECT_DIR$/Report/src/main.tex</main-file>
-        <aux-dir>$PROJECT_DIR$/auxil</aux-dir>
+        <aux-dir />
       </texify-bibtex>
       <method v="2" />
     </configuration>
@@ -85,8 +90,8 @@
           <env name="BIBINPUTS" value="$PROJECT_DIR$/Report/src" />
           <env name="BSTINPUTS" value="$PROJECT_DIR$/Report/src;" />
         </envs>
-        <main-file>$PROJECT_DIR$/Report/src/project.tex</main-file>
-        <aux-dir />
+        <main-file />
+        <aux-dir>$APPLICATION_HOME_DIR$/jbr/bin</aux-dir>
       </texify-bibtex>
       <method v="2" />
     </configuration>
@@ -122,6 +127,7 @@
       <updated>1703246551012</updated>
       <workItem from="1703246554605" duration="673000" />
       <workItem from="1703267949732" duration="617000" />
+      <workItem from="1703271563874" duration="393000" />
     </task>
     <servers />
   </component>

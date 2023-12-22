@@ -5,7 +5,11 @@ import os
 
 dataset_folder = r"D:\OneDrive - Università di Cagliari\3 ERASMUS\CORSI\CV\CV_PROJECT\CV-Project-GIT\Data\Datasets\first_dataset"
 
-# Reference: https://docs.ultralytics.com/modes/train/#usage-examples
+"""
+    REFERENCE: 
+    - https://docs.ultralytics.com/modes/train/#usage-examples
+"""
+
 # load the model
 model = YOLO("yolov8n.yaml")
 #train the model
