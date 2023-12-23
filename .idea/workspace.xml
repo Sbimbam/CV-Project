@@ -55,7 +55,7 @@
       <recent name="D:\OneDrive - Università di Cagliari\3 ERASMUS\CORSI\CV\CV_PROJECT\CV-Project-GIT\Report" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="BibTeX.main bibliography">
     <configuration default="true" type="BIBTEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
       <texify-bibtex>
         <compiler />
