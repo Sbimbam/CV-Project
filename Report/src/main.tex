@@ -44,7 +44,7 @@ In this work, an attempt was made to train a YOLO (You Only Look Once) model for
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-\section{Brief summary of methods proposed in the literature}
+\section{Brief summary of methods in the literature}
 Yolo is not the only way to get locate objects of this type. An example of this is the method described in \cite{9790745}, which implements an ALPR algorithm based on image processing, i.e., frame decomposition and edges analysis. It was designed to be low computational cost and was mainly implemented through the use of the open CV library. Another example may be the method described in \cite{9755690} which is based on a weight model.
 
 In general, we can observe two main methods \cite{9755690} in the literature, one more classical based on image processing, and one based on machine learning techniques, such as precisely Yolo.
@@ -52,7 +52,7 @@ In general, we can observe two main methods \cite{9755690} in the literature, on
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Yolo V8}
-Yolo (You Only Lool Once) \cite{yolo1} is a well-known model used for object detection and image segmentation that uses, among other techniques, convolutional neural networks \cite{CV_course_slide}. It represents an excellent tool that is well suited to the purpose of this project, which is given input images, or at least frames of a video, to detect and track license plates of vehicles. Yolo is a powerful and comprehensive tool; the model comes in various sizes and is currently up to version 8 (used here). This tool requires receiving the input dataset by splitting the images into training, validation, and test, respectively, where for each the information within the image should be given in text format. The nano model (3.2M parameters \cite{yolo1}) of YOLO V8 was used in this work.
+Yolo \cite{yolo1} is a well-known model used for object detection and image segmentation that uses, among other techniques, convolutional neural networks \cite{CV_course_slide}. It represents an excellent tool that is well suited to the purpose of this project, which is given input images, or at least frames of a video, to detect and track license plates of vehicles. Yolo is a powerful and comprehensive tool; the model comes in various sizes and is currently up to version 8 (used here). This tool requires receiving the input dataset by splitting the images into training, validation, and test, respectively, where for each the information within the image should be given in text format. The nano model (3.2M parameters \cite{yolo1}) of YOLO V8 was used in this work.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -100,7 +100,7 @@ Within these graphs, we can observe on the X-axis the number of epochs correspon
 The Y-axis can take on different meanings, in particular here we have five different metrics:
 \begin{itemize}
     \item Box loss: is a loss metric, so the lower the better. It represents the accuracy with which the box containing the plate is defined compared to the box given as input;
-    \item class loss: another loss metric, but one that refers to how well the model can classify objects;
+    \item Class loss: another loss metric, but one that refers to how well the model can classify objects;
     \item mPA: this figure represents a summary of the previous two metrics by evaluating the average accuracy over all the data. This datum is usually referred to the Intersection over Union (IoU), defined as a value proportional to the area given by the intersection of the true bounded box and the predicted bounded box.Compared to this usually the mPA 50 and mPa 50:95 are given, where 50 and 95 represent the percentage of overlap between the bounded dox;
     \item Precision: represents the accuracy of the model, defined simply as the ratio of the number of bounded boxes revealed to their actual number;
     \item Recall: unlike Precision, this metric relates the number of true bounded boxes to the total number of predicted bounded boxes among which there may be false positives.
