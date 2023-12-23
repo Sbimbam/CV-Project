@@ -21,3 +21,14 @@ metrics = model.val(
     data= source_path, #data.yaml
     plots = True,
     rect = True)  # no arguments needed, dataset and settings remembered
+
+##################################################
+#########   Plot result from training   ##########
+"""
+    REFERENCE: 
+    - https://docs.ultralytics.com/reference/utils/plotting/#ultralytics.utils.plotting.plt_color_scatter
+"""
+
+from ultralytics.utils.plotting import plot_results
+
+plot_results('path..../results.csv') 

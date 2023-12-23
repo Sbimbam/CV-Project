@@ -11,7 +11,7 @@ from ultralytics import YOLO
 """
 
 source_path = r"H:\Il mio Drive\Data\Video test\demo.mp4"
-model_path = r"H:\Il mio Drive\runs\detect\train3\weights\best.pt"
+model_path = r"H:\Il mio Drive\MODEL_2\runs_6\detect\train\weights\best.pt"
 
 # Load the YOLOv8 model
 model = YOLO(model_path)
