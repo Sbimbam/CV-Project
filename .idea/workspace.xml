@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e3be683-658c-47a4-9ff2-998b6cdd7606" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Report/src/main.tex" beforeDir="false" afterPath="$PROJECT_DIR$/Report/src/main.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/track.py" beforeDir="false" afterPath="$PROJECT_DIR$/track.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/validation.py" beforeDir="false" afterPath="$PROJECT_DIR$/validation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoOut.avi" beforeDir="false" afterPath="$PROJECT_DIR$/videoOut.avi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +125,7 @@
       <workItem from="1703246554605" duration="673000" />
       <workItem from="1703267949732" duration="617000" />
       <workItem from="1703271563874" duration="393000" />
-      <workItem from="1703326004502" duration="402000" />
+      <workItem from="1703326004502" duration="601000" />
     </task>
     <servers />
   </component>
